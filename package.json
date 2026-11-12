@@ -1,0 +1,24 @@
+{
+  "name": "sentinel-fetch",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript HTTP client with automatic retries and timeout management.",
+  "keywords": [
+    "api",
+    "fetch",
+    "http",
+    "retry",
+    "timeout",
+    "javascript"
+  ],
+  "license": "MIT",
+  "author": "Deepak Kanyal",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+  "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
